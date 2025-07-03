@@ -1,0 +1,25 @@
+{
+  "name": "elektro",
+  "version": "1.0.0",
+  "description": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/arn0ld87/Dynamisches-Schaltungs-Tool/build.yml?branch=main&style=for-the-badge)](https://github.com/arn0ld87/Dynamisches-Schaltungs-Tool/actions) [![Python Version](https://img.shields.io/badge/python-3.10-blue.svg?style=for-the-badge)](https://www.python.org/downloads/release/python-3100/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arn0ld87/Dynamisches-Schaltungs-Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arn0ld87/Dynamisches-Schaltungs-Tool/issues"
+  },
+  "homepage": "https://github.com/arn0ld87/Dynamisches-Schaltungs-Tool#readme",
+  "dependencies": {
+    "@capacitor/core": "^7.4.1",
+    "@capacitor/ios": "^7.4.1"
+  }
+}

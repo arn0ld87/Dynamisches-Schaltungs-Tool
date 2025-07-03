@@ -63,5 +63,5 @@ def index():
     return render_template('index.html', result=result, form_values=form_values)
 
 if __name__ == '__main__':
-    Timer(1, open_browser).start()
-    app.run(host='127.0.0.1', port=PORT)
+    # '0.0.0.0' macht den Server flexibel über alle Netzwerk-IPs des Macs erreichbar
+    app.run(host='0.0.0.0', port=5001, debug=True)
