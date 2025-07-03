@@ -9,8 +9,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    # Version auf v4 aktualisiert
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -25,8 +26,9 @@ jobs:
     - name: Build with PyInstaller
       run: pyinstaller --onefile --windowed --add-data="templates;templates" --name "Schaltungs-Tool-Windows" app.py
 
+    # Version auf v4 aktualisiert - DAS IST DIE WICHTIGSTE ÄNDERUNG
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Schaltungs-Tool-Windows
         path: dist/Schaltungs-Tool-Windows.exe
@@ -35,8 +37,9 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    # Version auf v4 aktualisiert
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -51,8 +54,9 @@ jobs:
     - name: Build with PyInstaller
       run: pyinstaller --onefile --windowed --add-data="templates:templates" --name "Schaltungs-Tool-macOS" app.py
 
+    # Version auf v4 aktualisiert - DAS IST DIE WICHTIGSTE ÄNDERUNG
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Schaltungs-Tool-macOS
         path: dist/Schaltungs-Tool-macOS.app
