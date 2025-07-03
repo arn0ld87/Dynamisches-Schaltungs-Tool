@@ -1,1 +1,0 @@
-([('app', '/Volumes/Sasmung T7/Picharme/elektro/dist/app', 'EXECUTABLE')],)

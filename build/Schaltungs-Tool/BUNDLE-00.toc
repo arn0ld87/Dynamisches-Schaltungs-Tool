@@ -1,3 +1,0 @@
-([('Schaltungs-Tool',
-   '/Volumes/Sasmung T7/Picharme/elektro/dist/Schaltungs-Tool',
-   'EXECUTABLE')],)
